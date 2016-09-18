@@ -1,24 +1,14 @@
 {
-	"name": "Chrome User-Agent",
+	"name": "Skip shorte.st ads",
 	"version": "0.1.0",
-	"description": "Modify the user-agent string sent with HTTP requests. Go to the options page to select a new string or create your own.",
-	"homepage_url": "http://jugglinmike.github.com/chrome-user-agent/",
-	"icons": {
-		"16": "icon16.png",
-		"48": "icon48.png",
-		"128": "icon128.png"
-	},
+        "manifest_version": 2,
+	"description": "Automatically skips the ads on http://sh.st/ links immediately.",
 	
-	"options_page": "options.html",
-	"background_page": "background.html",
-	"browser_action": {
-		"default_icon": "icon19.png",
-		"popup": "options.html"
-	},
+	"background": {"scripts": ["background.js"]},
 	"permissions": [
 		"webRequest",
 		"webRequestBlocking",
-		"<all_urls>",
+		"http://sh.st/*",
 		"tabs"
 	]
 }

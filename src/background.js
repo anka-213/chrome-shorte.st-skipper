@@ -1,21 +1,11 @@
 var requestFilter = {
 	urls: [
-		"<all_urls>"
+		"http://sh.st/*"
 	]
 };
 
 chrome.webRequest.onBeforeSendHeaders.addListener(function(details) {
 	var headers = details.requestHeaders;
-	if( !localStorage['user-agent'] ) {
-		return;
-	}
-	for(var i = 0, l = headers.length; i < l; ++i) {
-		if( headers[i].name == 'User-Agent' ) {
-			break;
-		}
-	}
-	if(i < headers.length) {
-		headers[i].value = localStorage['user-agent'];
-	}
+        headers = headers.filter(x=> x.name !== 'User-Agent');
 	return {requestHeaders: headers};
 }, requestFilter, ['requestHeaders','blocking']);

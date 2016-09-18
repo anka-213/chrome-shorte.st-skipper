@@ -4,7 +4,9 @@
         "manifest_version": 2,
 	"description": "Automatically skips the ads on http://sh.st/ links immediately.",
 	
-	"background": {"scripts": ["background.js"]},
+	"background": {
+            "scripts": ["background.js"]
+        },
 	"permissions": [
 		"webRequest",
 		"webRequestBlocking",

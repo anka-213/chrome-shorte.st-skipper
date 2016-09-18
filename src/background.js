@@ -6,6 +6,6 @@ var requestFilter = {
 
 chrome.webRequest.onBeforeSendHeaders.addListener(function(details) {
 	var headers = details.requestHeaders;
-        headers = headers.filter(x=> x.name !== 'User-Agent');
+        headers = headers.filter(function(x) { return x.name !== 'User-Agent';});
 	return {requestHeaders: headers};
 }, requestFilter, ['requestHeaders','blocking']);

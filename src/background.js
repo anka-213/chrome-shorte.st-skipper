@@ -1,6 +1,10 @@
 var requestFilter = {
 	urls: [
-		"http://sh.st/*"
+		"http://sh.st/*",
+		"https://sh.st/*",
+		"http://clkmein.com/*",
+		"http://viid.me/*",
+		"http://xiw34.com/*",
 	]
 };
 

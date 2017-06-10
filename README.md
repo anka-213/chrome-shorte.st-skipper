@@ -16,3 +16,8 @@ Install from the [Chrome Webstore](https://chrome.google.com/webstore/detail/ski
 ## How it works
 
 This works by spoofing the User Agent of the browser, so that shorte.st believes that we are a crawler and redirects instead of showing ads.
+
+## Screenshots
+
+Example of a page that would be skipped:
+![screenshot](screenshot.png "Without extension")

@@ -1,9 +1,11 @@
 {
 	"name": "Skip shorte.st ads",
-	"version": "0.1.0",
+	"version": "1.0.0",
         "manifest_version": 2,
 	"description": "Automatically skips the ads on http://sh.st/ links immediately.",
-	
+  "icons": { "16": "icon16.png",
+             "48": "icon48.png",
+            "128": "icon128.png" },
 	"background": {
             "scripts": ["background.js"]
         },

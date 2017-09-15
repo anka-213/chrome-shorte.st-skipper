@@ -5,6 +5,10 @@ var requestFilter = {
 		"http://clkmein.com/*",
 		"http://viid.me/*",
 		"http://xiw34.com/*",
+    "http://corneey.com/*",
+    "http://gestyy.com/*",
+    "http://cllkme.com/*",
+    "http://festyy.com/*",
 	]
 };
 

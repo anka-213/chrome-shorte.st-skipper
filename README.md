@@ -12,6 +12,10 @@ Install from the [Chrome Webstore](https://chrome.google.com/webstore/detail/ski
 - clkmein.com
 - viid.me
 - xiw34.com
+- corneey.com
+- gestyy.com
+- cllkme.com
+- festyy.com
 
 ## How it works
 

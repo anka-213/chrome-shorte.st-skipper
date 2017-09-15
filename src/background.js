@@ -9,6 +9,7 @@ var requestFilter = {
     "http://gestyy.com/*",
     "http://cllkme.com/*",
     "http://festyy.com/*",
+    "http://destyy.com/*",
 	]
 };
 

@@ -1,6 +1,6 @@
 {
 	"name": "Skip shorte.st ads",
-	"version": "1.1.1",
+	"version": "1.1.2",
         "manifest_version": 2,
 	"description": "Automatically skips the ads on http://sh.st/ links immediately.",
   "icons": { "16": "icon16.png",
@@ -22,6 +22,7 @@
     "http://cllkme.com/*",
     "http://festyy.com/*",
     "http://destyy.com/*",
+     "http://ceesty.com/*"
 		"tabs"
 	]
 }

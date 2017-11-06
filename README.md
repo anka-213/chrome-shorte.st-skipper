@@ -17,6 +17,7 @@ Install from the [Chrome Webstore](https://chrome.google.com/webstore/detail/ski
 - cllkme.com
 - festyy.com
 - destyy.com
+- ceesty.com
 
 ## How it works
 

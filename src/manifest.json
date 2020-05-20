@@ -7,7 +7,8 @@
              "48": "icon48.png",
             "128": "icon128.png" },
 	"background": {
-            "scripts": ["background.js"]
+            "scripts": ["background.js"],
+	    "persistent": true
         },
 	"permissions": [
 		"webRequest",
@@ -22,7 +23,6 @@
     "http://cllkme.com/*",
     "http://festyy.com/*",
     "http://destyy.com/*",
-    "http://ceesty.com/*",
-		"tabs"
+    "http://ceesty.com/*"
 	]
 }
